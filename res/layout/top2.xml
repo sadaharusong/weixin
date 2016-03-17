@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"	
+    android:layout_height="35dp"
+    android:background="#eee"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+    android:id="@+id/id_ll_chat_swapper"
+    android:layout_width="fill_parent"
+    android:layout_height="32dp"
+    android:orientation="horizontal"
+    
+    >
+    
+    <LinearLayout 
+        android:layout_width="3dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/id_tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="聊天"
+            android:textColor="#008000"
+            />
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="3dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+         android:gravity="center"
+        >
+           <TextView 
+            android:id="@+id/id_tv_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="朋友圈"
+            />
+         
+     </LinearLayout>
+     
+      <LinearLayout 
+        android:layout_width="3dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+         android:gravity="center"
+        >
+            <TextView 
+                android:id="@+id/id_tv_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通信录"
+            />
+          
+      </LinearLayout>
+    
+</LinearLayout>
+    
+<ImageView 
+    android:id="@+id/id_iv_tabline"
+    android:layout_width="101dp"
+    android:layout_height="3dp"
+    android:background="@drawable/tabline"
+    />
+    
+</LinearLayout>
